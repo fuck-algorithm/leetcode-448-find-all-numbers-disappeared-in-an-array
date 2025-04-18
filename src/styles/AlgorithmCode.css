@@ -1,0 +1,32 @@
+.algorithm-code {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.algorithm-code h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.algorithm-code pre {
+  margin: 0;
+  padding: 15px;
+  background-color: #2c3e50;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.algorithm-code code {
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ecf0f1;
+  white-space: pre;
+} 
