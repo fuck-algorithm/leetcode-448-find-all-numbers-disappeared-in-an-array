@@ -134,7 +134,7 @@ class RectSelection implements D3Selection {
     return this;
   }
 
-  text(content: string): RectSelection {
+  text(_content: string): RectSelection {
     throw new Error('Rect elements do not support text content');
   }
 
@@ -167,7 +167,7 @@ class PathSelection implements D3Selection {
     return this;
   }
 
-  text(content: string): PathSelection {
+  text(_content: string): PathSelection {
     throw new Error('Path elements do not support text content');
   }
 
@@ -200,7 +200,7 @@ class GroupSelection implements D3Selection {
     return this;
   }
 
-  text(content: string): GroupSelection {
+  text(_content: string): GroupSelection {
     throw new Error('Group elements do not support direct text content');
   }
 
