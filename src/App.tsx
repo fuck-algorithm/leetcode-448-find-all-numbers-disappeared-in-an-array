@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import AlgorithmAnimation from './components/AlgorithmAnimation'
 import ControlPanel from './components/ControlPanel'
